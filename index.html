@@ -1,0 +1,80 @@
+<!DOCTYPE html> <!-- Интрукция html для браузера -->
+<html lang="en"> <!-- начало документа -->
+<head><!--дополнительная инфа по документу  -->
+    <meta charset="UTF-8"> <!--кодировка в которой мы описуем данные   -->
+<!--    <meta http-equiv="x-ua-compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>Vycheslav Cv</title> <!-- Название документа -->
+</head>
+<body><!-- видемая часть документа  -->
+<div>
+    <table cellpadding="15">
+        <tr>
+            <td>
+                <img src="avatar.jpg" width="300" alt="Тут наша аватарка" /><!-- Создаем картинку с шириной -->
+            </td>
+            <td>
+                <h1>Вячеслав Гавриш!</h1>
+                <p>Я жил в Украине </p>
+                <p><em>занимаюсь спортом  и умею ездить на велосипеде, <strong>В отличии от моей жены</strong></em></p><!-- em наклный текст есть так же тег I он устаревший, strong выделение жирным  -->
+            </td>
+        </tr>
+    </table>
+    <hr> <!--линия-->
+    <h2>Мои соц. сети</h2>
+    <ul type="disc"> <!--список не нумерованый--> <!--type атребут но в данном достайте он не катит, мы будем делать списками-->
+        <li>Инстаграм</li> <!--строка списка-->
+        <li><a href="http://t.m/js_by_vladilen" target="_blank">телеграм</a></li>  <!-- а тег ссылка, href атрибут к ссылке,target для ссылки _blank позволиет открывать ссылку в отдельном окне -->
+    </ul>
+    <hr>
+    <h2>мои х обби</h2>
+    <ol> <!--список нумерованый--> <!--type атребут но в данном достайте он не катит, мы будем делать списками-->
+        <li>баскетбол</li>
+        <li>рыбалка</li>
+        <li>путешествие</li>
+    </ol>
+
+    <h2>Опыт работы</h2>
+    <table>
+<!--        <thead></thead>-->
+<!--        <tbody></tbody>-->
+<!--        <tfoot></tfoot>-->
+        <tr> <!--заголовок таблицый-->
+            <th>Компания</th> <!--ячейка заголовка-->
+            <th>должность</th>
+            <th>Год</th>
+        </tr>
+        <tr>
+            <td>sandi+</td>
+            <td>director</td>
+            <td>eternity</td>
+        </tr>
+        <tr>
+            <td>sandi+22</td>
+            <td>loader</td>
+            <td>eternity</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Сссылка на мою страницу Youtube</h2>
+    <a href="youtube.html">посмотреть на сиписок каналов</a>
+    <hr>
+    <h2>связаться со мной</h2>
+    <form action="/avatar.jpg">
+        <label for="name">Ваше имя;</label>
+        <input type="text" id="name" placeholder="Начните что то вводить">
+        <br>
+        <label for="email">Ваше email;</label>
+        <input type="text" id="email" placeholder="email">
+        <br>
+        <label for="text">Ваше сообщения;</label>
+        <br>
+        <textarea id="text" rows="2" cols="5"></textarea>
+        <br>
+        <input type="submit" value="Связаться">
+
+    </form>
+
+</div>
+</body>
+</html>
